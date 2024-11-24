@@ -2,6 +2,9 @@
 
 This Python script allows you to modify various game values for Call of Duty Black Ops 1 Zombies such as health, points, ammo, and grenades. It utilizes the `pymem` library to read and write memory values in real-time while the game is running.
 
+![image](https://github.com/user-attachments/assets/17f46c1a-d5d2-46df-94ea-f31dfacfea48)
+
+
 ## Features:
 - Modify Health, Points, Ammo, and more.
 - Freeze all values to a custom number (e.g., unlimited health, ammo).
