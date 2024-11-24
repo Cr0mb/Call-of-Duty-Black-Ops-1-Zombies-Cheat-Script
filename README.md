@@ -11,6 +11,41 @@ This Python script allows you to modify various game values for Call of Duty Bla
 - Freeze all values to a custom number (e.g., unlimited health, ammo).
 - Easy-to-use menu for selecting values to change.
 
+=========================================
+
+### Update Overview V1
+
+This update introduces new features, such as the ability to track player coordinates in real-time and freeze/unfreeze game values, alongside adding support for Akimbo Ammo.
+
+The script now supports additional memory variables, including Akimbo Ammo, with the following memory offsets:
+
+```python
+# Memory offsets for game variables
+offsets = {
+    "Health": 0x167987C,
+    "Points": 0x180A6C8,
+    "Pistol_Ammo": 0x1808F00,
+    "Pistol_Mags": 0x1808E88,
+    "Rifle_Ammo": 0x1808F10,
+    "Rifle_Mags": 0x1808E98,
+    "Grenades": 0x1808F08,
+    "Akimbo_Ammo": 0x1808F20  # New addition
+}
+
+# Base address for player data
+player_base_address = 0x16796F8  # Base address for player coordinates and other properties
+
+# Offsets for player coordinates (relative to the player base address)
+coordinates_offsets = {
+    "x": 0x18,  # Offset for X coordinate
+    "y": 0x20,  # Offset for Y coordinate
+    "z": 0x1C   # Offset for Z coordinate
+}
+
+```
+=========================================
+
+
 ## Requirements:
 - Python 3.x
 - `pymem` library (install via `pip install pymem`)
