@@ -4,6 +4,7 @@ This Python script allows you to modify various game values for Call of Duty Bla
 
 ![image](https://github.com/user-attachments/assets/17f46c1a-d5d2-46df-94ea-f31dfacfea48)
 
+[UnknownCheats Forum](https://www.unknowncheats.me/forum/call-of-duty-black-ops/673921-zombies-cheat-script-python.html#post4259509)
 
 ## Features:
 - Modify Health, Points, Ammo, and more.
