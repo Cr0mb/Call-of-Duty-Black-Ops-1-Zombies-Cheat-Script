@@ -2,7 +2,7 @@
 
 This Python script allows you to modify various game values for Call of Duty Black Ops 1 Zombies such as health, points, ammo, and grenades. It utilizes the `pymem` library to read and write memory values in real-time while the game is running.
 
-![image](https://github.com/user-attachments/assets/17f46c1a-d5d2-46df-94ea-f31dfacfea48)
+![image](https://github.com/user-attachments/assets/e231968a-bd89-4fe2-ac95-ba24d62b1ed1)
 
 [UnknownCheats Forum](https://www.unknowncheats.me/forum/call-of-duty-black-ops/673921-zombies-cheat-script-python.html#post4259509)
 
